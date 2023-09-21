@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Jogo da velha</title>
+  </head>
+  <body>
+    <div class="game">
+      <div id="questionPlayer">
+        <label for="namePlayer1">Nome do Jogador n° 1:</label>
+        <input
+          type="text"
+          id="namePlayer1"
+          name="namePlayer1"
+          class="questionPlayers"
+        />
+        <label for="namePlayer2">Nome do jogador n° 2:</label>
+        <input
+          type="text"
+          id="namePlayer2"
+          name="namePlayer2"
+          class="questionPlayers"
+        />
+        <button id="startGame">Começar o jogo</button><br /><br />
+      </div>
+      <div id="sectionPlayer">Aguardando o ínicio do game.</div>
+      <br />
+      <br />
+      <br />
+      <div>
+        <span
+          class="tableNormal"
+          id="leftUp"
+          data-value="100"
+          data-posicion="100"
+        ></span>
+      </div>
+      <div>
+        <span
+          class="tableNormal"
+          id="middleUp"
+          data-value="010"
+          data-posicion="100"
+        ></span>
+      </div>
+      <div>
+        <span
+          class="tableNormal"
+          id="rigthUp"
+          data-value="001"
+          data-posicion="100"
+        ></span>
+      </div>
+      <div>
+        <span
+          class="tableNormal"
+          id="leftCenter"
+          data-value="100"
+          data-posicion="010"
+        ></span>
+      </div>
+      <div>
+        <span
+          class="tableNormal"
+          id="MiddleCenter"
+          data-value="010"
+          data-posicion="010"
+        ></span>
+      </div>
+      <div>
+        <span
+          class="tableNormal"
+          id="rightCenter"
+          data-value="001"
+          data-posicion="010"
+        ></span>
+      </div>
+      <div>
+        <span
+          class="tableNormal"
+          id="leftDown"
+          data-value="100"
+          data-posicion="001"
+        ></span>
+      </div>
+      <div>
+        <span
+          class="tableNormal"
+          id="middleDown"
+          data-value="010"
+          data-posicion="001"
+        ></span>
+      </div>
+      <div>
+        <span
+          class="tableNormal"
+          id="rightDown"
+          data-value="001"
+          data-posicion="001"
+        ></span>
+      </div>
+    </div>
+  </body>
+</html>

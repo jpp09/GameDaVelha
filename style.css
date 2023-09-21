@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+}
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  justify-items: stretch;
+}
+
+.tableNormal {
+  display: flex;
+  border: 2px solid black;
+  background-color: darkgrey;
+  padding: 50px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.tableWin {
+  display: flex;
+  border: 2px solid black;
+  background-color: green;
+  padding: 50px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.tableVelha {
+  display: flex;
+  border: 2px solid black;
+  background-color: orangered;
+  padding: 50px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 2rem;
+}
+#questionPlayer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#sectionPlayer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 1.6rem;
+}
